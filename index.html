@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Médico de la Peste Negra - Fernanda Noemí Pascual Velázquez</title>
+    <style>
+        /* ======== ESTILOS GENERALES ======== */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Georgia', serif;
+            color: #f5f5f5;
+            background: linear-gradient(to bottom, #0a0a0a, #1c1c1c);
+            background-attachment: fixed;
+            line-height: 1.7;
+            overflow-x: hidden;
+        }
+
+        header {
+            background: url('https://images.unsplash.com/photo-1604439288190-9fef0b918a1d?auto=format&fit=crop&w=1500&q=80') no-repeat center center/cover;
+            text-align: center;
+            padding: 80px 20px;
+            border-bottom: 3px solid #5c3d2e;
+            box-shadow: 0 0 20px #000;
+            position: relative;
+        }
+
+        header::after {
+            content: "";
+            position: absolute;
+            inset: 0;
+            background-color: rgba(0,0,0,0.6);
+        }
+
+        header h1, header p {
+            position: relative;
+            z-index: 1;
+        }
+
+        h1 {
+            color: #d4af37;
+            font-size: 2.5em;
+            letter-spacing: 1px;
+            text-shadow: 0 0 10px #000;
+            animation: fadeInDown 1.5s ease-in-out;
+        }
+
+        header p {
+            font-size: 1.1em;
+            color: #e0e0e0;
+            margin-top: 10px;
+            animation: fadeIn 2s ease-in-out;
+        }
+
+        main {
+            max-width: 900px;
+            margin: 50px auto;
+            background: rgba(20, 20, 20, 0.95);
+            border-radius: 20px;
+            padding: 30px;
+            box-shadow: 0 0 20px rgba(255,255,255,0.08);
+            backdrop-filter: blur(3px);
+        }
+
+        section {
+            margin-bottom: 30px;
+            border-bottom: 1px solid #444;
+            padding-bottom: 20px;
+        }
+
+        section:last-child {
+            border-bottom: none;
+        }
+
+        h2 {
+            color: #c59d5f;
+            border-left: 4px solid #c59d5f;
+            padding-left: 10px;
+            margin-bottom: 10px;
+        }
+
+        p {
+            margin-left: 10px;
+            text-align: justify;
+        }
+
+        .imagen-personaje {
+            display: block;
+            margin: 25px auto;
+            max-width: 300px;
+            border: 2px solid #5c3d2e;
+            border-radius: 10px;
+            box-shadow: 0 0 20px rgba(0,0,0,0.7);
+            transition: transform 0.5s;
+        }
+
+        .imagen-personaje:hover {
+            transform: scale(1.05);
+        }
+
+        footer {
+            text-align: center;
+            background-color: #0d0d0d;
+            padding: 20px;
+            border-top: 3px solid #5c3d2e;
+            font-size: 0.95em;
+            color: #c0c0c0;
+            letter-spacing: 0.5px;
+        }
+
+        /* ======== ANIMACIONES ======== */
+        @keyframes fadeInDown {
+            from {
+                opacity: 0;
+                transform: translateY(-20px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        @keyframes fadeIn {
+            from { opacity: 0; }
+            to { opacity: 1; }
+        }
+
+        /* ======== EFECTO DECORATIVO ======== */
+        .decoracion {
+            text-align: center;
+            margin: 40px 0;
+            color: #6b4c34;
+            font-size: 1.2em;
+            letter-spacing: 2px;
+        }
+
+        .decoracion::before, .decoracion::after {
+            content: "☠";
+            margin: 0 10px;
+            color: #5c3d2e;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Médico de la Peste Negra</h1>
+        <p><strong>Fernanda Noemí Pascual Velázquez</strong> — Grupo 503</p>
+    </header>
+
+    <main>
+        <section>
+            <h2>Nombre del Personaje / Disfraz</h2>
+            <p>Médico de la Peste Negra</p>
+            <img src="https://upload.wikimedia.org/wikipedia/commons/5/54/Doctor_de_la_peste.jpg" alt="Médico de la peste negra" class="imagen-personaje">
+        </section>
+
+        <section>
+            <h2>Descripción del Personaje</h2>
+            <p>
+                El <strong>Médico de la Peste Negra</strong> es una figura histórica del siglo XIV, reconocida por su enigmática vestimenta. 
+                Durante los brotes de peste bubónica en Europa, estos médicos atendían a los enfermos cubiertos de pies a cabeza, 
+                utilizando una máscara con pico relleno de hierbas aromáticas, creyendo que así evitaban respirar el “aire contaminado”.
+            </p>
+            <p>
+                Su imagen se ha convertido en un símbolo de misterio y temor, representando el esfuerzo humano ante la enfermedad y el desconocimiento.
+                Actualmente, su estética se relaciona con el terror clásico y la historia medieval.
+            </p>
+        </section>
+
+        <section>
+            <h2>Categoría del Personaje</h2>
+            <p>Terror Clásico / Histórico</p>
+        </section>
+
+        <section>
+            <h2>Detalles del Vestuario</h2>
+            <p>
+                El atuendo se compone de una <strong>túnica negra larga</strong>, guantes, botas de cuero y el característico 
+                <strong>sombrero de ala ancha</strong>. La máscara con pico simboliza protección frente al mal aire.
+            </p>
+            <p>
+                Se acompaña con un bastón de madera, que se usaba para mantener distancia de los pacientes. 
+                El maquillaje se limita a oscurecer el contorno de los ojos, sin elementos peligrosos ni punzocortantes.
+            </p>
+        </section>
+
+        <section>
+            <h2>Declaración de Cumplimiento</h2>
+            <p>
+                Declaro que mi disfraz cumple con todas las normas de <strong>seguridad y respeto</strong> establecidas por la institución.
+                No incluye materiales inflamables, punzocortantes ni elementos ofensivos. Su finalidad es educativa y cultural,
+                como parte del proyecto de los submódulos de <strong>Base de Datos</strong> y <strong>Programación Web</strong>.
+            </p>
+        </section>
+
+        <div class="decoracion">Fin del Documento</div>
+    </main>
+
+    <footer>
+        <p>Proyecto académico — Submódulos: Base de Datos y Programación Web</p>
+        <p>© 2025 Fernanda Noemí Pascual Velázquez</p>
+    </footer>
+</body>
+</html>
